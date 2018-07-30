@@ -1,0 +1,16 @@
+{
+  "name": "kinesis-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sls": "node_modules/.bin/sls"
+  },
+  "devDependencies": {
+    "api-gateway-stage-tag-plugin": "^1.0.2",
+    "serverless": "^1.29.0",
+    "serverless-plugin-stage-variables": "1.7.10",
+    "serverless-plugin-tracing": "^2.0.0",
+    "serverless-pseudo-parameters": "^2.1.0"
+  }
+}
